@@ -1,0 +1,31 @@
+# Comprehensive .gitignore
+
+# Ignore sensitive files
+.env
+
+# Ignore sensitive environment files
+*.local
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore dependencies
+node_modules/
+vendor/
+bower_components/
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore credentials
+*.pem
+*.key
+*.crt
+*.enc
